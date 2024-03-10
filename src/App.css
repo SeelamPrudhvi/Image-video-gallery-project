@@ -1,0 +1,153 @@
+.App {
+  background-image: url(bgimage.png);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 10px 10px 4px red;
+}
+
+
+
+h1 {
+
+  /* color: brown; */
+  text-transform: capitalize;
+  text-shadow: 2px 2px 3px lightsalmon, 2px 2px 3px lightpink;
+
+}
+
+.homeh2 {
+  text-shadow: 2px 2px 3px lightcoral, 2px 2px 3px lightyellow;
+  /* animation-name: changecolor;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite; */
+}
+.homelogin,.homesignup,.homeupload{
+  background-color:azure;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+  width: 100px;
+  height: 40px;
+}
+.homelogin:hover {
+  background-color: green;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.homesignup:hover {
+  background-color: green;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.homeupload:hover {
+  background-color: green;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
+.homeinput {
+  border-radius: 6px;
+  border-width: 3px;
+  height: 40px;
+}
+
+select {
+  margin-left: 250px;
+  height: 40px;
+  background-color: aqua;
+}
+
+select:hover {
+  background-color: hotpink;
+}
+
+@keyframes changecolor {
+  0% {
+    color: blue;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: green;
+  }
+
+  75% {
+    color: red;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.homebutton {
+  background-color: lightgreen;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  animation-name: changecolor;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+
+}
+
+.authentication {
+  float: right;
+}
+
+.left {
+  float: left;
+  font-weight: bold;
+  animation-name: changecolor;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.homebutton:hover {
+  background-color: red;
+}
+
+.homeinput:hover {
+  background-color: yellowgreen;
+}
+
+.header {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.category-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
